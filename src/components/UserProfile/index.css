@@ -1,0 +1,32 @@
+.li-item {
+    list-style-type: none;
+    display: flex;
+    padding-bottom: 16px;
+}
+.avatar-style {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    margin-right: 10px;
+}
+.name-style {
+    margin: 0;
+}
+.role-style {
+    margin: 0;
+}
+.name-role-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.cross-image {
+    width: 30px;
+    height: 30px;
+}
+.cross-btn {
+    background-color: transparent;
+    outline: 0;
+    border: 0;
+}
