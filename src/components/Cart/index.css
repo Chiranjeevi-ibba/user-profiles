@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&display=swap');
+
+.main-cart-cont {
+    padding-bottom: 1rem;
+    flex-grow: 1;
+    width: 100%;
+}
+.inner-cart-cont {
+    background-color: #F9FBFE;
+    margin: 3rem 5rem;
+    border-radius: 10px;
+    padding-bottom: 2rem;
+}
+.cart-ul {
+    list-style-type: none;
+    padding: 20px 0px;
+}
+.cart-heading-li {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 5%;
+}
+.h-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+.h-quantity, .h-price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+.order-total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px dashed #000;
+    width: 80%;
+}
+.outer-order-total-cont {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.order-total > h3 {
+    color: #3E4C59;
+    font-family: "Roboto";
+    font-weight: 600;
+}
+.place-order-btn, .order-now-btn {
+    padding: 8px 16px;
+    background-color: #F7931E;
+    color: #fff;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    border-radius: 8px;
+    border: 0;
+    cursor: pointer;
+}
+.totalcost-ordr-btn-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.no-orders-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: fit-content;
+    width: 100%;
+    text-align: center;
+}
+.no-orders-image {
+    width: 30%;
+}
+.no-orders-text {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 0;
+    color: #1E293B;
+    margin: 0;
+}
+.your-cart-para-text {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #64748B;
+    margin: 6px;
+}
+
+@media screen and (max-width: 768px) {
+    .cart-heading-li {
+        display: none;
+    }
+    .inner-cart-cont  {
+        margin: 20px;
+    }
+    .no-orders-image {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .no-orders-image {
+        width: 65%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .inner-cart-cont  {
+        margin: 10px;
+    }
+    .no-orders-image {
+        width: 80%;
+    }
+}

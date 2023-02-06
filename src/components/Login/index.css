@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Bree+Serif&family=DM+Sans:ital,wght@1,700&display=swap');
+.body {
+    padding: 0;
+    margin: 0;
+}
+.login-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.mobile-view {
+    width: 100%;
+    background-image: url("https://i.ibb.co/rKPYzyt/mobile-bg.png");
+    background-size: cover;
+    min-height:80vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+.mobile-login-text {
+    padding-left: 10px;
+}
+.username-password-container {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+.form-container {
+    width: 90%;
+    padding: 20px 0px;
+}
+.input-field {
+    background-color: #e2e8f0;
+    border: 0;
+    outline: none;
+    border-radius: 3px;
+    height: 25px;
+    padding: 5px;
+  }
+  .label-text {
+    color: #475569;
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: 12px;
+    padding-bottom: 6px;
+  }
+  .login-btn {
+    padding: 8px 5px;
+    margin: 10px 0px;
+    width: 100%;
+    border-radius: 3px;
+    background-color: #f7931e;
+    color: #ffffff;
+    border: 0px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .error-text {
+    color: #ef4444;
+    font-size: 14px;
+    font-weight: 500;
+    align-self: flex-start;
+    margin: 0px;
+    margin-bottom: 15px;
+    font-weight: bold;
+  }
+  .desktop-view {
+    display: none;
+  }
+  .website-logo-title-cont {
+    display: none;
+  }
+
+
+@media screen and (min-width: 375px) {
+    .mobile-view {
+        min-height: 100vh;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    .title-text {
+        font-family: "DM Sans", sans-serif;
+        font-size: 24px;
+        color: #f7931e;
+        margin: 0px;
+    }
+    .desktop-login-text {
+        font-size: 20px;
+    }
+    .website-logo-title-cont {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .login-container {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        overflow: hidden;
+    }
+    .form-container {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .login-form {
+        width: 100%;
+        max-width: 360px;
+        margin: 10px;
+        padding: 30px 15px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        border-radius: 6px;
+    }
+    .mobile-view {
+        display: none;
+    }
+    .desktop-view {
+        display: block;
+        width: 50%;
+    }
+    .login-bg {
+        width: 100%;
+    }
+}
+

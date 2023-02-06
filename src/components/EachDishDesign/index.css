@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&display=swap');
+
+.each-dish-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50%;
+    margin: 16px 0px;
+    cursor: pointer;
+}
+.each-dish-image {
+    width: 255px;
+    height: 150px;
+    border-radius: 6px;
+    margin-right: 30px;
+}
+.each-dish-name {
+    font-size: 18px;
+    line-height: 24px;
+    font-family: 'DM Sans', sans-serif;
+}
+.each-dish-cost {
+    font-size: 16px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+}
+.each-dish-name, .each-dish-cost {
+    margin-top: 0px;
+}
+.each-dish-rating {
+    margin: 0px;
+    font-size: 14px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+}
+.star-rating-cont {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.add-btn {
+    background-color: transparent;
+    border: 2px solid #FFA412;
+    border-radius: 8px;
+    font-family: 'Roboto', sans-serif;
+    color: #FFA412;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 8px 16px;
+    margin-top: 6px;
+    cursor: pointer;
+}
+.quantity-controller {
+    display: flex;
+    padding: 6px 0px;
+}
+.quantity-amount {
+    padding: 0px 10px;
+    padding-bottom: 5px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 1000px) {
+    .each-dish-image {
+        width: 180px;
+        height: 100px;
+        margin-right: 16px;
+    }
+    .each-dish-name {
+        font-size: 16px;
+    }
+    .each-dish-cost {
+        font-size: 14px;
+    }
+    .each-dish-rating {
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .each-dish-image {
+        width: 150px;
+        height: 80px;
+    }
+    .each-dish-name {
+        font-size: 14px;
+    }
+    .each-dish-cost {
+        font-size: 12px;
+    }
+    .each-dish-rating {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .each-dish-image {
+        width: 140px;
+        height: 70px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .each-dish-container {
+        width: 100%;
+    }
+    .each-dish-image {
+        width: 160px;
+        height: 100px;
+    }
+    
+}
+

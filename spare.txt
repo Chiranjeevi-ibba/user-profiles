@@ -1,0 +1,37 @@
+<div className="restaurant-banner">
+          <div className='inner-restaurant-banner'>
+          <div>
+            <img
+              src={imageUrl}
+              alt="restaurant"
+              className="restaurant-banner-image"
+            />
+          </div>
+          {/* card details section */}
+          <div className="restaurant-details-container">
+            <h1 className="r-name-text">{name}</h1>
+            <p className="r-cuisine-text">{cuisine}</p>
+            <p className="r-location-text">{location}</p>
+
+            <div className="rating-two-cost-container">
+              <div className="star-rating-container">
+                <p className="r-star-money-text">
+                  <AiFillStar /> {rating}
+                </p>
+                <p className="r-location-text">{reviewsCount}+ ratings</p>
+              </div>
+              <img
+                className="line-style"
+                src="https://i.ibb.co/19h18cL/Line-6.png"
+                alt="line"
+              />
+              <div className="two-cost-0container">
+                <p className="r-star-money-text">
+                  <BiRupee /> {costForTwo}
+                </p>
+                <p className="r-location-text">Cost for two</p>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>

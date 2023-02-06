@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Bree+Serif&family=DM+Sans:ital,wght@1,700&display=swap');
+
+.payment-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    text-align: center;
+}
+.goto-home-btn {
+    padding: 8px 16px;
+    background-color: #F7931E;
+    color: #fff;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    border-radius: 8px;
+    border: 0;
+    cursor: pointer;
+}
+.payment-text {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    margin-bottom: 0;
+    color: #1E293B;
+}
+.payment-para-text {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #64748B;
+    margin: 6px;
+}

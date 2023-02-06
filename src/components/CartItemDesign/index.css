@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&display=swap');
+
+.cart-image {
+    width: 180px;
+    height: 100px;
+    border-radius: 12px;
+    padding: 0px 10px;
+}
+.cart-image-name-cont{
+    display: flex;
+    width: 40%;
+}
+.cart-items-desktop-view {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 5%;
+}
+.cart-item-name {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+.cart-quantity-controller {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 0px;
+    width: 30%;
+}
+.cart-quantity-amount {
+    padding: 0px 10px;
+    padding-bottom: 5px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+}
+.cart-each-item-price {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    color: #FFA412;
+}
+.cart-each-item-toal-price {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cart-items-mobile-view {
+    margin: 20px 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: none;
+}
+.cart-items-mobile-view {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: none;
+}
+.mb-inner-cart-items-cont {
+    width: fit-content;
+}
+.mb-cart-quantity-controller {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 6px 0px;
+}
+
+@media screen and (max-width: 1024px) {
+    .cart-image {
+        width: 140px;
+        height: 80px;
+    }
+    .cart-item-name {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cart-items-desktop-view {
+        display: none;
+    }
+    .cart-items-mobile-view {
+        display: flex;
+    }
+    .cart-item-name, .cart-each-item-price {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .cart-item-name {
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,37 @@
+.mySwiper {
+    margin: 20px 0px;
+    width: 100vw;
+    max-width: 1200px;
+}
+.carousel-image {
+    width: 100%;
+}
+.mySwiper > .swiper-button-prev {
+    color: #fff;
+}
+.mySwiper > .swiper-button-next {
+    color: #fff;
+}
+.mySwiper .swiper-pagination-bullet {
+    background-color: #fff;
+}
+
+@media screen and (max-width: 1024px) {
+    .mySwiper .swiper-button-next:after {
+        font-size: 25px;
+    }
+    .mySwiper .swiper-button-prev:after {
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 425px) {
+    .mySwiper .swiper-button-next:after {
+        font-size: 20px;
+    }
+    .mySwiper .swiper-button-prev:after {
+        font-size: 20px;
+    }
+    .carousel-image {
+        height: 150px;
+    }
+}
